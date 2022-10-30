@@ -79,7 +79,6 @@ if (!empty($data['message']['text'])) {
 У файлі telegram.php зробимо функцію яка допоможе надсилати запити:<br />
 ```php
 <?php
-echo $token;
 function sendTelegram($method, $response)
 {
 	$ch = curl_init('https://api.telegram.org/bot' . "ТОКЕН_ТВОГО_БОТА" . '/' . $method);  
