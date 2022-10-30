@@ -27,7 +27,8 @@ index.php<br />
       &emsp;&emsp;&emsp;telegram.php<br />
 
 Коли ти створив бота, ти маєш встановити Вебхук, тобто звязок з ботом і файлом в якому програмуватимеш його, для цього заходимо в браузер, та вводимо такий урл:<br />
-//https://api.telegram.org/botТОКЕН_ТВОГО_БОТА/setWebhook?url=https://ТВІЙ_САЙТ
+https://api.telegram.org/botТОКЕН_ТВОГО_БОТА/setWebhook?url=https://ТВІЙ_САЙТ
+
 
 ```php
 <?php
